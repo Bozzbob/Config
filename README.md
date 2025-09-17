@@ -6,21 +6,16 @@ This repository contains my personal configuration files ("dotfiles") for variou
 
 | Program           | Description                              |
 |-------------------|------------------------------------------|
-| `bash` / `zsh`     | Shell configuration files               |
-| `nvim`            | Neovim setup and plugins                 |
-| `git`             | Git configuration (`.gitconfig`)         |
-| `i3` / `sway`     | Tiling window manager configs            |
-| `alacritty`       | Terminal emulator settings               |
-| `rofi`            | App launcher themes and configs          |
-| `picom`           | Compositor settings                      |
-| `polybar`         | Status bar configuration                 |
+| `Fish`            | Shell configuration files                |
+| `Hyprland`        | Tiling window manager configs            |
+| `Kitty`           | Terminal emulator settings               |
+
 
 > Note: These configs are tailored for **Arch Linux**, but can be adapted for other distros with minor changes.
 
 ## 🔧 Usage
 
-Clone the repo and symlink the configs to your home directory:
+Clone the repo:
 
 ```bash
-git clone git@github.com:Grip9418/dotfiles.git ~/dotfiles
-ln -s ~/dotfiles/.bashrc ~/.bashrc
+git clone git@github.com:Grip9418/dotfiles.git 
